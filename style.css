@@ -12,17 +12,18 @@ body {
     left: 0;
     z-index: -10;
     width: 100%;
-    height: 600px;
     background-image: url(background.png);
 }
 @media (min-width: 640px) {
     .background {
         box-shadow: inset 0 -100px 100px 100px #fff;
+        height: 525px;
     }
 }
 @media (max-width: 640px) {
     .background {
-        box-shadow: inset 0 -50px 50px 50px #fff;
+        box-shadow: inset 0 -25px 25px 25px #fff;
+        height: 500px;
     }
 }
 
