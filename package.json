@@ -1,0 +1,27 @@
+{
+  "name": "yourself.reo7sp.ru",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reo7sp/yourself.git"
+  },
+  "author": "Oleg Morozenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reo7sp/yourself/issues"
+  },
+  "homepage": "https://github.com/reo7sp/yourself#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "html-minifier": "^3.5.15",
+    "js-yaml": "^3.11.0",
+    "marked": "^0.3.19",
+    "shelljs": "^0.8.2"
+  }
+}
