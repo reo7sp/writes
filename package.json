@@ -1,27 +1,29 @@
 {
-  "name": "yourself.reo7sp.ru",
+  "name": "writes.olezh.es",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "main": "index.js",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build-cmd.js",
+    "watch": "node watch-cmd.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reo7sp/yourself.git"
+    "url": "git+https://github.com/reo7sp/writes.git"
   },
   "author": "Oleg Morozenkov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reo7sp/yourself/issues"
+    "url": "https://github.com/reo7sp/writes/issues"
   },
-  "homepage": "https://github.com/reo7sp/yourself#readme",
+  "homepage": "https://github.com/reo7sp/writes#readme",
   "dependencies": {
     "ejs": "^2.6.1",
     "html-minifier": "^3.5.15",
     "js-yaml": "^3.11.0",
     "marked": "^0.3.19",
+    "node-watch": "^0.5.8",
     "shelljs": "^0.8.2"
   }
 }
